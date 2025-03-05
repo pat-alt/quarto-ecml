@@ -1,3 +1,13 @@
+.luarc.json
 /.luarc.json
 
 /.quarto/
+
+splncs04.bst
+llncs.cls
+*.lua
+template.*
+!template.qmd
+!template.pdf
+!template.html
+!template.tex

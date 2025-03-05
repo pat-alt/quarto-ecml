@@ -1,11 +1,14 @@
 ---
 title: Recent Advances in Underwater Basket Weaving Under the Extreme Pressure of the Mariana Trench
 title-running: Underwater Basket Weaving Under Extreme Pressure
+filters:
+  - cite.lua
 format:
   quarto-ecml-pdf:
-    keep-tex: true  
+    keep-tex: true
   quarto-ecml-html: default
 blind-review: false
+latex-clean: false
 author:
   - name: André Lauren Benjamin
     affiliations:
@@ -36,7 +39,6 @@ author-running: A.L. Benjamin et al.
 abstract: |
   The abstract should briefly summarize the contents of the paper in 150--250 words.
 keywords: [First Keyword, Second Keyword, Another Keyword.]
-bibliography: bibliography.bib
 ---
 
 ## Introduction {#sec-intro}
@@ -96,10 +98,10 @@ $$
 x + y = z
 $$ {#eq-linear}
 
-Please try to avoid rasterized images for line-art diagrams and schemas. Whenever possible, use vector graphics instead (see
+<!-- Please try to avoid rasterized images for line-art diagrams and schemas. Whenever possible, use vector graphics instead (see
 @fig-duck).
 
-![A figure caption is always placed below the illustration. Please note that short captions are centered, while long ones are justified by the macro package automatically.](example-image-duck){#fig-duck width=100% fig-pos='t'}
+![A figure caption is always placed below the illustration. Please note that short captions are centered, while long ones are justified by the macro package automatically.](example-image-duck){#fig-duck width=100% fig-pos='t'} -->
 
 \begin{theorem}
 This is a sample theorem. The run-in heading is set in bold, while
@@ -154,5 +156,3 @@ relevant to the content of this article. Or: Author A has received research
 grants from Company W. Author B has received a speaker honorarium from
 Company X and owns stock in Company Y. Author C is a member of committee Z.
 \end{credits}
-
-## References {-}
